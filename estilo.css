@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(68, 1, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centraliza{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 194, 242);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5x;
+    border: none;
+    box-sizing: border-box;
+}
+
+.botao{
+    background-color: rgb(95, 0, 124);
+    border: #01341a;  
+    color: white;
+    transition: 5s;  
+}
+
+.botao:hover{
+    background-color: #01431a;
+    border: green;
+}
